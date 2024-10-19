@@ -1,3 +1,11 @@
-name = input("Введите ваше имя: ")
+def print_message(message):
+    name = input("Введите ваше имя: ")
+    """Выводит переданное сообщение на экран."""
+    print(message + name)
 
-print(f"Hello world from {name}")
+def main():
+    msg = "Hello world from "
+    print_message(msg)
+
+if __name__ == "__main__":
+    main()
