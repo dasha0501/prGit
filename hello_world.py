@@ -8,6 +8,6 @@ def main():
     msg = "Hello world from "
     print_message(msg) #Вывод сообщения
 
-"""Запуск главной функции"""
+"""Запуск главной функции программы"""
 if __name__ == "__main__":
     main()
